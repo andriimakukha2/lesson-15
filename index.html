@@ -9,19 +9,25 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="tracking-wider	font-sans">
-<header class="pt-7 px-14 h-20 bg-white top-0 sticky">
-  <div class="pr-12 flex justify-between items-center">
-    <div class="flex space-x-4">
+<header class="pt-7 px-0 sm:px-14 h-20 bg-white top-0 sticky">
+  <button class="inline-block sm:hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+         class="size-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
+    </svg>
+  </button>
+  <div class="pr-8 sm:pr-12 flex justify-between items-center">
+    <div class="hidden sm:flex space-x-4">
       <a href="#" class="pr-2.5 text-xs text-black">SHOP</a>
       <a href="#" class="px-2.5 text-xs text-black">EXPLORE</a>
     </div>
-    <div class="justify-center">
+    <div class="w-[100px] justify-center">
       <a href="#">
         <img src="img/logo.svg" alt="Logo">
       </a>
     </div>
     <div>
-      <a href="#" class="text-sm text-black">MY CART</a>
+      <a href="#" class="text-xs sm:text-sm text-black">MY CART</a>
     </div>
   </div>
 </header>
@@ -29,34 +35,34 @@
   <div
       class="min-h-[504px] bg-[url('img/banner.jpg')] bg-blend-overlay bg-cover text-white py-[193px]">
     <div class="container max-w-[1672px] max-h-[118px] mx-auto text-center border-box">
-      <h1 class="text-5xl mb-1.5">
+      <h1 class="text-3xl sm:text-5xl mb-1.5">
         The Desk Shelf System
       </h1>
-      <p class="text-mx">
+      <p class="text-sm sm:text-mx">
         Available in Walnut or Maple
       </p>
-      <a href="#" class="text-sm mt-6 tracking-widest inline-block">LEARN MORE</a>
+      <a href="#" class="text-xs sm:text-sm mt-6 tracking-widest inline-block">LEARN MORE</a>
     </div>
   </div>
   <div class="container max-w-[839px] min-h-[153px] m-auto text-center text-black border-box px-3 mt-20">
-    <h2 class="text-5xl mb-6">
+    <h2 class="text-3xl sm:text-5xl mb-6">
       Design Inspires
     </h2>
-    <p class="text-[#A0A0A0]">
+    <p class="text-[#A0A0A0] text-sm sm:text-mx">
       Build your dream workspace, so you can get your best work done.
     </p>
-    <a href="#" class="text-sm mt-7 tracking-widest inline-block">GET STARTED</a>
+    <a href="#" class="text-xs sm:text-sm mt-7 tracking-widest inline-block">GET STARTED</a>
   </div>
-  <div class="flex px-12 my-20">
+  <div class="flex px-4 sm:px-12 my-14 sm:my-20">
     <div class="px-3 text-center">
       <div>
         <img src="img/desk.jpg" class="2xl:w-[804px] 2xl:h-[536px]" alt="desk">
       </div>
       <div>
-        <h3 class="text-3xl mt-[51px]">
+        <h3 class="text-xl sm:text-3xl mt-[40px] sm:mt-[51px]">
           Desk Pads
         </h3>
-        <a href="#" class="text-sm mt-5 tracking-widest inline-block">LEARN MORE</a>
+        <a href="#" class="text-[11px] sm:text-sm mt-5 tracking-widest inline-block">LEARN MORE</a>
       </div>
     </div>
     <div class="px-3 text-center">
@@ -64,15 +70,15 @@
         <img src="img/laptop-stands.jpg" class="2xl:w-[804px] 2xl:h-[536px]" alt="stands">
       </div>
       <div>
-        <h3 class="text-3xl mt-[51px]">
+        <h3 class="text-xl sm:text-3xl mt-[40px] sm:mt-[51px]">
           Laptop Stands
         </h3>
-        <a href="#" class="text-sm mt-5 tracking-widest inline-block">LEARN MORE</a>
+        <a href="#" class="text-[11px] sm:text-sm mt-5 tracking-widest inline-block">LEARN MORE</a>
       </div>
     </div>
   </div>
-  <div class="text-center text-black border-box px-[50px] mt-[120px] mb-20">
-    <h2 class="text-4xl mb-6">
+  <div class="text-center text-black border-box px-[50px] mt-[80px] sm:mt-[120px] mb-10 sm:mb-20">
+    <h2 class="text-3xl sm:text-4xl mb-6">
       Featured Products
     </h2>
     <p class="text-[#A0A0A0]">
@@ -84,16 +90,16 @@
     <div class="w-2 h-2 bg-black"></div>
     <div class="w-2 h-2 bg-black"></div>
   </div>
-  <div class="flex mb-[100px] px-[50px]">
+  <div class="flex mb-[50px] sm:mb-[100px] px-0 sm:px-[50px]">
     <div class="px-[12.5px] cursor-pointer">
       <div>
         <img src="img/magsafe.jpg" class="w-[382.25px]" alt="magsafe">
       </div>
       <div class="my-[18.6px] text-[#A0A0A0]">
-        <p class="text-sm">
+        <p class="text-xs sm:text-sm">
           Walnut MagSafe Stand
         </p>
-        <p class="text-xs">
+        <p class="mt-2 sm:mt-0 text-[10px] sm:text-xs">
           $120
         </p>
       </div>
@@ -103,10 +109,10 @@
         <img src="img/laptop.jpg" class="w-[382.25px]" alt="laptop">
       </div>
       <div class="my-[18.6px] text-[#A0A0A0]">
-        <p class="text-sm">
+        <p class="text-xs sm:text-sm">
           Walnut Laptop Riser
         </p>
-        <p class="text-xs">
+        <p class="mt-2 sm:mt-0 text-[10px] sm:text-xs">
           $150
         </p>
       </div>
@@ -116,10 +122,10 @@
         <img src="img/ipad.jpg" class="w-[382.25px]" alt="ipad">
       </div>
       <div class="my-[18.6px] text-[#A0A0A0]">
-        <p class="text-sm">
+        <p class="text-xs sm:text-sm">
           Walnut iPad Stand
         </p>
-        <p class="text-xs">
+        <p class="mt-2 sm:mt-0 text-[10px] sm:text-xs">
           $80
         </p>
       </div>
@@ -129,10 +135,10 @@
         <img src="img/monitor.jpg" class="w-[382.25px]" alt="monitor">
       </div>
       <div class="my-[18.6px] text-[#A0A0A0]">
-        <p class="text-sm">
+        <p class="text-xs sm:text-sm">
           Walnut Monitor Stand
         </p>
-        <p class="text-xs">
+        <p class="mt-2 sm:mt-0 text-[10px] sm:text-xs">
           $100
         </p>
       </div>
@@ -141,41 +147,41 @@
   <div
       class="min-h-[504px] bg-[url('img/home-office.jpg')] bg-blend-overlay bg-cover text-white py-[180px]">
     <div class="container max-w-[1672px] max-h-[144px] mx-auto text-center border-box">
-      <h2 class="text-7xl mb-2">
+      <h2 class="text-4xl sm:text-7xl mb-2">
         The Desk Shelf System
       </h2>
-      <p class="text-mx">
+      <p class="text-sm sm:text-mx">
         Available in Walnut or Maple
       </p>
-      <a href="#" class="text-sm mt-6 tracking-widest inline-block">LEARN MORE</a>
+      <a href="#" class="text-xs sm:text-sm mt-6 tracking-widest inline-block">LEARN MORE</a>
     </div>
   </div>
   <div class="text-center border-box">
-    <div class="px-auto xl:px-[150px] mx-[150px] mt-[120px] mb-6">
-      <h2 class="text-4xl text-black mb-6">
+    <div class="px-auto xl:px-[150px] mx-[40px] sm:mx-[150px] mt-[80px] sm:mt-[120px] mb-6">
+      <h2 class="text-3xl sm:text-4xl text-black mb-6">
         Made The Hard Way
       </h2>
-      <p class="max-w-[777px] mx-auto xl:mx-[175px] tracking-wide text-[#A0A0A0]">
+      <p class="max-w-[777px] mx-auto xl:mx-[175px] tracking-wide text-sm sm:text-base text-[#A0A0A0]">
         Our signature craftsmanship has been honed over a decade of manufacturing innovation here in Portland, Oregon.
         We combine the skills of our small in-house team with the collective strength of collaborators throughout the
         US
         to deliver quality products worth investing in.
       </p>
     </div>
-    <div class="block mx-[150px] 2xl:mx-[350px]">
+    <div class="block mx-[50px] sm:mx-[150px] 2xl:mx-[350px]">
       <img src="img/image.jpg" alt="image">
     </div>
   </div>
-  <div class="px-auto xl:px-[150px] mx-[150px] mt-10 text-center text-black border-box mb-20">
-    <h2 class="max-w-[777px] mx-auto xl:mx-[175px] text-4xl mb-6">
+  <div class="px-auto xl:px-[150px] mx-[40px] sm:mx-[150px] mt-10 mb-14 sm:mb-20 text-center text-black border-box">
+    <h2 class="max-w-[777px] mx-auto xl:mx-[175px] text-2xl sm:text-4xl mb-6">
       Make Work Meaningful
     </h2>
-    <p class="max-w-[777px] mx-auto xl:mx-[175px] tracking-wide text-[#A0A0A0]">
+    <p class="max-w-[777px] mx-auto xl:mx-[175px] tracking-wide text-sm sm:text-base text-[#A0A0A0]">
       We're here because we believe that your work deserves the best. A team that loves working together is the magic
       that makes it all happen.
     </p>
   </div>
-  <div class="pl-[60px] pr-3 mx-12">
+  <div class="pl-3 sm:pl-[60px] pr-3 mx-6 sm:mx-12">
     <div class="grid grid-cols-3 md:grid-cols-6 gap-6">
       <img src="img/portrait/portrait1.svg" alt="portrait1">
       <img src="img/portrait/portrait2.svg" alt="portrait2">
@@ -203,24 +209,24 @@
       <img src="img/portrait/portrait24.svg" alt="portrait24">
     </div>
   </div>
-  <div class="text-center border-box mt-20  mb-[120px] ">
-    <div class="max-w-[1428px] mx-[150px]">
-      <h3 class="text-[32px] md:text-[34px] text-black">
+  <div class="text-center border-box mt-12 sm:mt-20 mb-20 sm:mb-[120px] ">
+    <div class="max-w-[1428px] mx-[50px] sm:mx-[150px]">
+      <h3 class="text-2xl sm:text-[32px] md:text-[34px] text-black">
         We Hope You'll Join Us
       </h3>
-      <a href="#" class="text-sm mt-12 tracking-widest inline-block">READ MORE ABOUT OUR STORY</a>
+      <a href="#" class="text-xs sm:text-sm mt-6 sm:mt-12 tracking-widest inline-block">READ MORE ABOUT OUR STORY</a>
     </div>
   </div>
   <div
-      class="w-[1728] h-[] py-[120px] px-10 bg-[#9AA8B1] mx-[50px] mb-10 text-white text-center grid place-items-center">
+      class="w-[1728] py-10 sm:py-[120px] px-5 sm:px-10 bg-[#9AA8B1] mx-4 sm:mx-[50px] mb-10 text-white text-center grid place-items-center">
     <div class="mb-6">
-      <img src="img/gm_logo_small.png" class="w-10 h-[34px]" alt="logo">
+      <img src="img/gm_logo_small.png" class="w-6 sm:w-10 h-6 sm:h-[34px]" alt="logo">
     </div>
     <div>
-      <h2 class="text-5xl mb-6">
+      <h2 class="text-3xl sm:text-5xl mb-6">
         Design Inspires
       </h2>
-      <p>
+      <p class="text-xs sm:text-base">
         Build your dream workspace, so you can get your best work done.
       </p>
     </div>
@@ -288,8 +294,8 @@
       </div>
     </div>
   </div>
-  <div class="px-[50px]">
-    <div class="mt-20 pb-6 px-[12.5px] text-sm text-right">
+  <div class="px-1 sm:px-[50px]">
+    <div class="mt-20 pb-6 px-1 sm:px-[12.5px] text-sm text-center sm:text-right">
       <a class="text-[#707A7F] px-[17px]">
         ©2024 Grovemade
       </a>
